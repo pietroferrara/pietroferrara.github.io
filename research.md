@@ -11,23 +11,24 @@ In this page you can find an almost exhaustive list of projects I am currently i
 - [Security and reliability analysis of smart contracts](#security)
 - [Static analysis of machine learning algorithms](#static) (completed)
 - [Static security analysis of IoT systems](#static2) (completed)
-- [Static taint analysis for privacy(#static3) (completed)
-- [Static analysis of .NET programs(#static4) (completed)
-- [Static Analysis of Android Automotive Applications(#static5) (completed)
+- [Static taint analysis for privacy](#static3) (completed)
+- [Static analysis of .NET programs](#static4) (completed)
+- [Static Analysis of Android Automotive Applications](#static5) (completed)
 
 For a comprehensive view of the projects of the Software and System Verification group, please give a look to [this webpage](https://unive-ssv.github.io/projects.html).
 
 *Keywords*: abstract interpretation, static analysis, mobile programs, software engineering, program verification, multithreading, security.
 
-## LiSA
+
 <a name="lisa"/>
+## LiSA
 
 Collaborators: Luca Negrini, Vincenzo Arceri, Agostino Cortesi
 
 LiSA (Library for Static Analysis) aims to ease the creation and implementation of static analyzers based on the Abstract Interpretation theory. LiSA provides an analysis engine that works on a generic and extensible control flow graph representation of the program to analyze. You can find more information about LiSA in our [GitHub repository](https://github.com/lisa-analyzer/) and the corresponding [project website](https://lisa-analyzer.github.io/).
 
-## Security and reliability analysis of Smart Contracts
 <a name="security"/>
+## Security and reliability analysis of Smart Contracts
 
 Collaborators: Vincenzo Arceri, Fabio Tagliaferro, Imran Alam, Agostino Cortesi
 
@@ -36,8 +37,8 @@ The possibility of implementing Smart Contract infrastructures using general-pur
 Nevertheless, the design of such languages did not have blockchain development as a goal: their use in such context intrinsically inherits the well known general-purpose programming languages problems. Besides, new blockchain-related vulnerabilities arise in such a context: representatives are transaction ordering and timestamp manipulation.
 The objective of this project is to identify and implement advanced and sophisticated program analysis approaches to enhance the quality of applications, remaining in the context of general-purpose programming languages.
 
-## Static Analysis of Machine Learning Algorithms
 <a name="static"/>
+## Static Analysis of Machine Learning Algorithms
 
 Collaborators: Stefano Calzavara, Claudio Lucchese
 
@@ -48,8 +49,8 @@ Machine learning has proved invaluable for a range of different tasks, yet it al
 - Stefano Calzavara, Pietro Ferrara, Claudio Lucchese: “Certifying Decision Trees Against Evasion Attacks by Program Analysis”, in Proceedings of ESORICS 2020 
 
 
-## Static Security Analysis of IoT systems
 <a name="static2"/>
+## Static Security Analysis of IoT systems
 
 Collaborators: Agostino Cortesi, Fausto Spoto (University of Verona, Italy), Amit Mandal (SRM University, Amaravati, India)
 
@@ -63,8 +64,8 @@ In such context, existing static analysis techniques (and in particular taint an
 - Amit Kr Mandal, Federica Panarotto, Agostino Cortesi, Pietro Ferrara, Fausto Spoto: “Static analysis of Android Auto infotainment and on-board diagnostics II apps.”, in Softw. Pract. Exp., Vol. 49 
 
 
-## Static Taint Analysis for Privacy
 <a name="static3"/>
+## Static Taint Analysis for Privacy
 
 Collaborators: Luca Olivieri, Fausto Spoto
 
@@ -79,8 +80,8 @@ New privacy regulation (such as the EU GDPR) underlined the relevance of proper 
 - Pietro Ferrara, Luca Olivieri, Fausto Spoto: “Tailoring Taint Analysis to GDPR.”, in Proceedings of APF 2018 
 
 
-## Static Analysis of .NET Programs
 <a name="static4"/>
+## Static Analysis of .NET Programs
 
 Collaborators: Fausto Spoto, Agostino Cortesi
 
@@ -91,8 +92,8 @@ During the last decade, several semantic static analyzers have been formalized, 
 - Pietro Ferrara, Agostino Cortesi, Fausto Spoto: “From CIL to Java bytecode: Semantics-based translation for static analysis leveraging.”, in Sci. Comput. Program., Vol. 191 
 - Pietro Ferrara, Agostino Cortesi, Fausto Spoto: “CIL to Java-bytecode translation for static analysis leveraging.”, in Proceedings of FormaliSE@ICSE 2018 
 
-## Static Analysis of Android Auto[motive] Applications
 <a name="static5"/>
+## Static Analysis of Android Auto[motive] Applications
 
 Collaborators: Amit Kr Mandal, Federica Panarotto, Agostino Cortesi, Fausto Spoto
 
