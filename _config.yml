@@ -9,7 +9,7 @@ markdown: kramdown
 theme: minima
 future: true
 minima:
-  skin: dark
+  skin: classic
 plugins:
   - jekyll-feed
 
