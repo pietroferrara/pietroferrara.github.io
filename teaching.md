@@ -30,15 +30,15 @@ The main goal of this course is to teach the fundamentals of software architectu
 
 ### Bachelor in Digital Management
 
-** Introduction to coding and data management – Module 2 ** (from academic year 2019-20)
+**Introduction to coding and data management – Module 2 ** (from academic year 2019-20)
 
-* Spring semester, 4th period, 30 hours (~140 students, 1st year)*
+*Spring semester, 4th period, 30 hours (~140 students, 1st year)*
 
 The goal of this course is to teach students how to cleanse, process and visualize data. In particular, the students will learn how to use a programming language (Python) to read and write data from standard formats, process it to extract useful information (using Numpy and Pandas), and visualize and plot it in order to show and explain its content (using matplotlib and Seaborn).
 
 ### Others
 
-** Technological and Digital Innovation for Cultural Organisations** (from academic year 2023-24)
+**Technological and Digital Innovation for Cultural Organisations** (from academic year 2023-24)
 
 *Fall semester, 22 hous (~40 students, first level master in Management of Cultural Assets and Activities)*
 
@@ -48,15 +48,15 @@ cultural activities.
 
 ### Courses taught in the past
 
-** Programming and laboratory – A-L 2 ** (academic year 2020-21 and 2021-22)
+**Programming and laboratory – A-L 2** (academic year 2020-21 and 2021-22)
 
-* Spring semester, 48 hours (~80 students, 1st year of the Bachelor in Computer Science)*
+*Spring semester, 48 hours (~80 students, 1st year of the Bachelor in Computer Science)*
 
 The goal of this course is to teach students how to devise algorithmic solutions to simple problems. The student will learn and understand the foundations of computer science for what concerns imperative languages and basic algorithms. Moreover, the student will understand problem solvability and the ability to select suitable methods for problem analysis and modeling
 
-** Information systems for the arts ** (academic year 2019-20)
+**Information systems for the arts** (academic year 2019-20)
 
-* Spring semester, 4th period, 30 hours (~50 students, Master in Economics and Management of Arts and Cultural Activities)*
+*Spring semester, 4th period, 30 hours (~50 students, Master in Economics and Management of Arts and Cultural Activities)*
 
 The course is intended to introduce the main IT technologies used in the management of cultural heritage. In particular, the course will introduce the basic concepts of computers (binary representation of data, architecture, algorithms), how data is structured in information systems (in particular in relational databases), and a concrete language (SQL) that allows to manage such systems.
 
