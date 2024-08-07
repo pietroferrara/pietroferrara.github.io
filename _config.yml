@@ -1,0 +1,20 @@
+title: Pietro Ferrara - Associate Professor in Computer Science
+description: Pietro Ferrara's personal website
+author: 
+  name: Pietro Ferrara
+  email: pietro.ferrara@unive.it
+  
+# Build settings
+markdown: kramdown
+theme: minima
+future: true
+minima:
+  skin: dark
+plugins:
+  - jekyll-feed
+
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - README.md
+   - script
