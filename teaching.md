@@ -13,24 +13,24 @@ In this page, you can find informations about:
 
 ### Bachelor in Computer Science
 
-** Object Oriented programming – Module 1 ** (from academic year 2020-21)
+**Object Oriented programming – Module 1** (from academic year 2020-21)
 
-* Fall semester, 48 hours (~150 students, 2nd year)*
+*Fall semester, 48 hours (~150 students, 2nd year)*
 
 This course is one of the basic educational activities of the Bachelor course in Computer Science that enable the student to gain knowledge and understanding major programming paradigms and acquire the ability to design and implement software.
 The aim of the course is to provide knowledge related to the object-oriented programming paradigm as well as specific knowledge of the Java language.
 
 ### Master in Computer Science
 
-** Software Architecture ** (from academic year 2022-23)
+**Software Architecture** (from academic year 2022-23)
 
-* Fall semester, 48 hours (~20 students, 1st year)*
+*Fall semester, 48 hours (~20 students, 1st year)*
 
 The main goal of this course is to teach the fundamentals of software architectures (and in particular what aspects should be taken into account when evaluating what architecture to choose to develop a software system), and the most important architectural patterns that are nowadays adopted in modern software systems. The course covers software architecture characteristics (aka, non-functional requirements), monolithic architectures (layered, pipeline, and microkernel), and distributed architectures (service oriented, event-driven, microservices, and serverless).
 
 ### Bachelor in Digital Management
 
-**Introduction to coding and data management – Module 2 ** (from academic year 2019-20)
+**Introduction to coding and data management – Module 2** (from academic year 2019-20)
 
 *Spring semester, 4th period, 30 hours (~140 students, 1st year)*
 
