@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Bio
+nav-include: true
+nav-order: 2
 ---
 
 I am currently an associate professor in Computer Science at Ca’ Foscari University of Venice. I have 18 years of experience in scientific research in the application of static analysis techniques to the software engineering process proven by about 50 scientific articles, 20 patents, 60 talks at various technical conferences, universities and fairs, supervision of a dozen of PhD, master and bachelor students, involvement in several research projects from the writing of the proposal to the development and conclusion of the project (full details in [my long cv](cv.pdf)).

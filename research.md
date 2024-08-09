@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Research
+nav-include: true
+nav-order: 3
 ---
 
 My research interests are focused on *the application of rigorous mathematical theories to enhance the reliability, security, and performances of software by means of static analysis*. Abstract interpretation is a framework applied to develop sound static analyses proving properties on all possible executions of a program. However, approximation is necessary to achieve computability, and the analysis might produce false alarms. Finding a good balance between precision, efficiency, and soundness depends on specific applications, and it usually requires deep research investigation. I am particularly interested in new scenarios where static analysis might have a relevant impact, and I have focused my recent research activity on mobile and .NET software.

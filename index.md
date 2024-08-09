@@ -1,5 +1,8 @@
 ---
 layout: home
+title: home
+nav-include: true
+nav-order: 1
 ---
 
 <style>
