@@ -162,7 +162,7 @@ pre,
 code {
   font-family: $code-font-family;
   font-size: 0.9375em;
-  border: 1px solid $border-color-01;
+  border: 0;
   border-radius: 3px;
   background-color: $code-background-color;
 }
@@ -255,7 +255,7 @@ table {
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
-  border: 1px solid $table-border-color;
+  border: 0;
   tr {
     &:nth-child(even) {
       background-color: $table-zebra-color;
@@ -266,10 +266,10 @@ table {
   }
   th {
     background-color: $table-header-bg-color;
-    border: 1px solid $table-header-border;
+    border: 0;
   }
   td {
-    border: 1px solid $table-border-color;
+    border: 0;
   }
 
   @include media-query($on-laptop) {
