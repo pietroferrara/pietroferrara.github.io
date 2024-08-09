@@ -1,0 +1,6 @@
+users:
+  - id: 0000-0002-4678-933X
+    photo: pfp-ferrara-pietro.png
+    from: 2000-01-01
+    to: today
+    student: no

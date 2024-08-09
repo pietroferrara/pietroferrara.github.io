@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 nav-include: true
-nav-order: 5
+nav-order: 6
 ---
 
 **Address**: Department of Environmental Sciences, Informatics and Statistics,

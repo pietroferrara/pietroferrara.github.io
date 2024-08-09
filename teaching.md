@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 nav-include: true
-nav-order: 4
+nav-order: 5
 ---
 
 In this page, you can find informations about:
