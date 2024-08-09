@@ -1,6 +1,6 @@
 ---
 layout: home
-title: home
+title: Home
 nav-include: true
 nav-order: 1
 ---
