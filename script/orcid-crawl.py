@@ -286,6 +286,8 @@ def populate_publications_page(publications):
 		file.write('''---
 layout: page
 title: Publications
+nav-include: true
+nav-order: 5
 ---
 ''')
 		curryear = None
