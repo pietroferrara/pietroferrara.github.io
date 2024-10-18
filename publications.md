@@ -6,6 +6,8 @@ nav-order: 5
 ---
 ## 2024
 
+Luca Negrini, Sofia Presotto, Pietro Ferrara, Enea Zaffanella, Agostino Cortesi: _"Stability: An Abstract Domain for the Trend of Variation of Numerical Variables"_, [[DOI]](https://doi.org/10.1145/3689609.3689995) [[LINK]](https://doi.org/10.1145/3689609.3689995)
+
 Giacomo Zanatta, Pietro Ferrara, Teodors Lisovenko, Luca Negrini, Gianluca Caiazza, Ruffin White: _"Sound Static Analysis for Microservices: Utopia? A Preliminary Experience with LiSA"_, [[DOI]](https://doi.org/10.1145/3678721.3686229) [[LINK]](https://doi.org/10.1145/3678721.3686229)
 
 Luca Olivieri, Luca Negrini, Vincenzo Arceri, Badaruddin Chachar, Pietro Ferrara, Agostino Cortesi: _"Detection of Phantom Reads in Hyperledger Fabric"_, in IEEE Access [[DOI]](https://doi.org/10.1109/ACCESS.2024.3410019) [[LINK]](https://doi.org/10.1109/ACCESS.2024.3410019)
