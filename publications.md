@@ -10,7 +10,7 @@ Luca Negrini, Sofia Presotto, Pietro Ferrara, Enea Zaffanella, Agostino Cortesi:
 
 Giacomo Zanatta, Pietro Ferrara, Teodors Lisovenko, Luca Negrini, Gianluca Caiazza, Ruffin White: _"Sound Static Analysis for Microservices: Utopia? A Preliminary Experience with LiSA"_, [[DOI]](https://doi.org/10.1145/3678721.3686229) [[LINK]](https://doi.org/10.1145/3678721.3686229)
 
-Luca Olivieri, Vincenzo Arceri, Badaruddin Chachar, Luca Negrini, Fabio Tagliaferro, Fausto Spoto, Pietro Ferrara, Agostino Cortesi: _"General-purpose Languages for Blockchain Smart Contracts Development: A Comprenhensive Study"_, in IEEE Access [[DOI]](https://doi.org/10.1109/ACCESS.2024.3495535) [[LINK]](https://doi.org/10.1109/ACCESS.2024.3495535)
+Luca Olivieri, Vincenzo Arceri, Badaruddin Chachar, Luca Negrini, Fabio Tagliaferro, Fausto Spoto, Pietro Ferrara, Agostino Cortesi: _"General-Purpose Languages for Blockchain Smart Contracts Development: A Comprehensive Study"_, in IEEE Access [[DOI]](https://doi.org/10.1109/ACCESS.2024.3495535) [[LINK]](https://doi.org/10.1109/ACCESS.2024.3495535)
 
 Luca Olivieri, Luca Negrini, Vincenzo Arceri, Badaruddin Chachar, Pietro Ferrara, Agostino Cortesi: _"Detection of Phantom Reads in Hyperledger Fabric"_, in IEEE Access [[DOI]](https://doi.org/10.1109/ACCESS.2024.3410019) [[LINK]](https://doi.org/10.1109/ACCESS.2024.3410019)
 
