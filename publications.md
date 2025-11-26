@@ -4,6 +4,12 @@ title: Publications
 nav-include: true
 nav-order: 5
 ---
+## 2025
+
+Luca Olivieri, Luca Negrini, Vincenzo Arceri, Pietro Ferrara, Agostino Cortesi, Fausto Spoto: _"Static Detection of Untrusted Cross-Contract Invocations in Go Smart Contracts"_, [[DOI]](https://doi.org/10.1145/3672608.3707728) [[LINK]](https://doi.org/10.1145/3672608.3707728)
+
+Luca Olivieri, Luca Negrini, Vincenzo Arceri, Pietro Ferrara, Agostino Cortesi: _"Detection of Read-Write Issues in Hyperledger Fabric Smart Contracts"_, [[DOI]](https://doi.org/10.1145/3672608.3707721) [[LINK]](https://doi.org/10.1145/3672608.3707721)
+
 ## 2024
 
 Luca Negrini, Sofia Presotto, Pietro Ferrara, Enea Zaffanella, Agostino Cortesi: _"Stability: An Abstract Domain for the Trend of Variation of Numerical Variables"_, [[DOI]](https://doi.org/10.1145/3689609.3689995) [[LINK]](https://doi.org/10.1145/3689609.3689995)
