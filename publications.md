@@ -4,6 +4,10 @@ title: Publications
 nav-include: true
 nav-order: 5
 ---
+## 2026
+
+Luca Olivieri, Luca Pasetto, Luca Negrini, Pietro Ferrara: _"An Overview of Termination in the Ethereum Blockchain"_, [[DOI]](https://doi.org/10.1007/978-3-032-12335-0_14) [[LINK]](https://doi.org/10.1007/978-3-032-12335-0_14)
+
 ## 2025
 
 Luca Olivieri, Luca Negrini, Vincenzo Arceri, Pietro Ferrara, Agostino Cortesi, Fausto Spoto: _"Static Detection of Untrusted Cross-Contract Invocations in Go Smart Contracts"_, [[DOI]](https://doi.org/10.1145/3672608.3707728) [[LINK]](https://doi.org/10.1145/3672608.3707728)
