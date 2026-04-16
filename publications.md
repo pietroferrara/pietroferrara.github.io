@@ -6,6 +6,8 @@ nav-order: 5
 ---
 ## 2026
 
+Vincenzo Arceri, Luca Negrini, Giacomo Zanatta, Filippo Bianchi, Teodors Lisovenko, Luca Olivieri, Pietro Ferrara: _"JLiSA: The Java Frontend of the Library for Static Analysis (Competition Contribution)"_, [[DOI]](https://doi.org/10.1007/978-3-032-22749-2_30) [[LINK]](https://doi.org/10.1007/978-3-032-22749-2_30)
+
 Luca Olivieri, Luca Pasetto, Luca Negrini, Pietro Ferrara: _"An Overview of Termination in the Ethereum Blockchain"_, [[DOI]](https://doi.org/10.1007/978-3-032-12335-0_14) [[LINK]](https://doi.org/10.1007/978-3-032-12335-0_14)
 
 ## 2025
