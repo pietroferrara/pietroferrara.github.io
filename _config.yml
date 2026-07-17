@@ -1,24 +1,16 @@
-title: Pietro Ferrara - Associate Professor in Computer Science
-description: Pietro Ferrara's personal website
-author: 
+title: Pietro Ferrara
+description: >-
+  Pietro Ferrara is an associate professor in Computer Science at Ca' Foscari
+  University of Venice, working on abstract interpretation-based static
+  analysis for software security and reliability.
+url: "https://pietroferrara.github.io"
+author:
   name: Pietro Ferrara
   email: pietro.ferrara@unive.it
-  
+
 # Build settings
 markdown: kramdown
-theme: minima
 future: true
-minima:
-  skin: dark
-  social_links:
-    - { platform: orcid, user_url: "https://orcid.org/0000-0002-4678-933X" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/pietroferrara/" }
-    - { platform: google_scholar,  user_url: "https://scholar.google.com/citations?user=y1SCHOEAAAAJ" }
-    - { platform: scopus,  user_url: "https://www.scopus.com/authid/detail.uri?authorId=24172958700" }
-    - { platform: github,  user_url: "https://github.com/pietroferrara/" }
-    
-plugins:
-  - jekyll-feed
 
 exclude:
    - Gemfile

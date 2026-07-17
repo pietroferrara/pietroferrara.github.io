@@ -286,9 +286,13 @@ def populate_publications_page(publications):
 		file.write('''---
 layout: page
 title: Publications
+subtitle: Journal, conference, and workshop papers
 nav-include: true
-nav-order: 5
+nav-order: 4
 ---
+
+You can also find my publications on [Google Scholar](https://scholar.google.com/citations?user=y1SCHOEAAAAJ), [ORCID](https://orcid.org/0000-0002-4678-933X), and [Scopus](https://www.scopus.com/authid/detail.uri?authorId=24172958700).
+
 ''')
 		curryear = None
 		for publication in publications:

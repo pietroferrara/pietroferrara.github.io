@@ -1,7 +1,393 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main stylesheet (compiled by Jekyll to /assets/css/style.css)
 ---
 
-@import
-  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
-  "minima/initialize";
+/* ==========================================================================
+   Pietro Ferrara — personal academic website
+   Clean light academic theme
+   ========================================================================== */
+
+:root {
+  --accent: #14406b;
+  --link: #0b5ed7;
+  --accent-light: #eaf1f7;
+  --text: #1f2933;
+  --text-muted: #5c6670;
+  --border: #e3e7ea;
+  --bg: #ffffff;
+  --bg-alt: #f7f9fa;
+  --max-width: 60rem;
+  --content-width: 48rem;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wrapper {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4 {
+  color: var(--text);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--border);
+}
+
+h3 { font-size: 1.15rem; margin-top: 1.8rem; }
+
+img { max-width: 100%; }
+
+table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+table td, table th {
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.7rem;
+}
+
+/* ==========================================================================
+   Header / navigation
+   ========================================================================== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3.5rem;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.site-title:hover { text-decoration: none; color: var(--accent); }
+
+.site-nav .nav-trigger, .site-nav label { display: none; }
+
+.site-nav .page-link {
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-left: 1.3rem;
+  padding-bottom: 0.2rem;
+}
+.site-nav .page-link:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+.site-nav .page-link.current {
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+}
+
+@media screen and (max-width: 40rem) {
+  .site-nav {
+    position: absolute;
+    top: 0.55rem;
+    right: 1rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    text-align: right;
+  }
+  .site-nav label {
+    display: block;
+    float: right;
+    width: 2.4rem;
+    height: 2.4rem;
+    line-height: 0;
+    padding: 0.7rem;
+    cursor: pointer;
+  }
+  .site-nav .menu-icon svg { fill: var(--text); }
+  .site-nav input ~ .trigger { clear: both; display: none; }
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding: 0.4rem 0;
+  }
+  .site-nav .page-link {
+    display: block;
+    padding: 0.4rem 1rem;
+    margin: 0;
+  }
+  .site-nav .page-link.current { border-bottom: none; }
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.page-content {
+  flex: 1 0 auto;
+  padding: 2.5rem 0 3.5rem;
+}
+
+.page-article, .home { max-width: var(--content-width); }
+
+.page-title {
+  font-size: 2rem;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+/* ==========================================================================
+   Home page / hero
+   ========================================================================== */
+
+.home { max-width: none; }
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1.5rem 0 2rem;
+}
+
+.hero-photo img {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--accent-light);
+  box-shadow: 0 4px 18px rgba(20, 64, 107, 0.15);
+}
+
+.hero-text h1 {
+  font-size: 2.3rem;
+  margin: 0 0 0.2rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-role {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0 0 0.8rem;
+}
+
+.hero-intro {
+  color: var(--text);
+  margin: 0 0 1.1rem;
+  max-width: 38rem;
+}
+
+.hero-links a {
+  display: inline-block;
+  margin: 0 0.9rem 0.5rem 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.btn-row { margin-top: 0.4rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  margin: 0 0.6rem 0.6rem 0;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  background: var(--accent);
+  color: #fff;
+  border: 1px solid var(--accent);
+}
+.btn:hover {
+  background: #0f3355;
+  text-decoration: none;
+}
+.btn.btn-outline {
+  background: transparent;
+  color: var(--accent);
+}
+.btn.btn-outline:hover { background: var(--accent-light); }
+
+@media screen and (max-width: 44rem) {
+  .hero { flex-direction: column; text-align: center; gap: 1.3rem; }
+  .hero-intro { margin-left: auto; margin-right: auto; }
+}
+
+/* Home cards */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1.1rem;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  background: var(--bg-alt);
+}
+
+.card h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+.card p { margin: 0 0 0.6rem; font-size: 0.95rem; color: var(--text-muted); }
+.card a.more { font-weight: 600; font-size: 0.92rem; }
+
+/* Highlights list on home */
+
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+.highlights li {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.highlights li:last-child { border-bottom: none; }
+.highlights .when {
+  display: inline-block;
+  min-width: 6.2rem;
+  font-weight: 600;
+  color: var(--accent);
+  font-size: 0.92rem;
+}
+
+/* ==========================================================================
+   Publications
+   ========================================================================== */
+
+.page-body h2 {
+  font-size: 1.35rem;
+}
+
+/* Year sections on the publications page get a subtle accent */
+#publications h2, .page-body > h2 { scroll-margin-top: 4.5rem; }
+
+/* ==========================================================================
+   Misc content styling
+   ========================================================================== */
+
+blockquote {
+  margin: 1rem 0;
+  padding: 0.2rem 1.1rem;
+  border-left: 4px solid var(--accent);
+  background: var(--bg-alt);
+  color: var(--text-muted);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+code {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.08rem 0.35rem;
+  font-size: 0.9em;
+}
+
+ins, u.dates {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-alt);
+  padding: 1.6rem 0;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.footer-col { min-width: 15rem; }
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.85;
+  transition: opacity 0.15s ease;
+}
+.footer-social a:hover { opacity: 1; }
+.footer-social svg {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+.ssv-logo {
+  display: inline-block;
+  background: #181818;
+  border-radius: 6px;
+  padding: 0.35rem 0.7rem;
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
+}
+.ssv-logo:hover { opacity: 1; }
+.ssv-logo img {
+  height: 26px;
+  width: auto;
+  display: block;
+}
