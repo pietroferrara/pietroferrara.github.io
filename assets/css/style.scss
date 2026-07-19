@@ -394,6 +394,8 @@ ins, u.dates {
 
 /* Cookie / privacy notice */
 
+.cookie-notice[hidden] { display: none; }
+
 .cookie-notice {
   position: fixed;
   bottom: 1rem;
