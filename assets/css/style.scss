@@ -391,3 +391,39 @@ ins, u.dates {
   width: auto;
   display: block;
 }
+
+/* Cookie / privacy notice */
+
+.cookie-notice {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: min(92vw, 44rem);
+  padding: 0.7rem 1.1rem;
+  border-radius: 8px;
+  background: #1f2933;
+  color: #f0f3f5;
+  font-size: 0.92rem;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+.cookie-notice a {
+  color: #9ec5fe;
+  text-decoration: underline;
+}
+.cookie-notice button {
+  flex-shrink: 0;
+  padding: 0.35rem 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--link);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.92rem;
+  cursor: pointer;
+}
+.cookie-notice button:hover { background: #0a53be; }

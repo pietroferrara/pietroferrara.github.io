@@ -8,6 +8,10 @@ author:
   name: Pietro Ferrara
   email: pietro.ferrara@unive.it
 
+# Google Analytics 4: paste your Measurement ID (e.g. G-XXXXXXXXXX) below to
+# enable traffic tracking. Leave empty to disable.
+google_analytics: G-HQV1Y13DEQ
+
 # Build settings
 markdown: kramdown
 future: true

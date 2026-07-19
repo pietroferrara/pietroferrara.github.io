@@ -15,6 +15,25 @@
 
     {%- include footer.html -%}
 
+    {%- if site.google_analytics %}
+    <div id="cookie-notice" class="cookie-notice" hidden>
+      <span>This site uses Google Analytics to measure traffic in aggregate form. See the <a href="{{ '/privacy.html' | relative_url }}">privacy notice</a>.</span>
+      <button id="cookie-notice-ok" type="button">OK</button>
+    </div>
+    <script>
+      (function () {
+        var key = 'cookie-notice-dismissed';
+        try { if (localStorage.getItem(key)) return; } catch (e) {}
+        var el = document.getElementById('cookie-notice');
+        el.hidden = false;
+        document.getElementById('cookie-notice-ok').addEventListener('click', function () {
+          el.hidden = true;
+          try { localStorage.setItem(key, '1'); } catch (e) {}
+        });
+      })();
+    </script>
+    {%- endif %}
+
   </body>
 
 </html>
