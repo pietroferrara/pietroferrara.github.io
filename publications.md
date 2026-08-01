@@ -18,6 +18,8 @@ Arceri, V., Negrini, L., Zanatta, G., Bianchi, F., Lisovenko, T., Olivieri, L., 
 
 ## 2025
 
+Ferrara, P., Hadarean, L., Navas, J.A., Urban, C., Dolcetti, G.: _"Sound Static Program Analysis in Modern Software Engineering (Dagstuhl Seminar 25421)"_, in Dagstuhl Reports, Vol. 15(10) [[DOI]](https://doi.org/10.4230/DagRep.15.10.37)
+
 Olivieri, L., Beste, D., Negrini, L., Schönherr, L., Cinà, A.E., Ferrara, P.: _"Code Generation of Smart Contracts with LLMs: A Case Study on Hyperledger Fabric"_, in Proceedings of the 36th IEEE International Symposium on Software Reliability Engineering (ISSRE 2025) [[DOI]](https://doi.org/10.1109/ISSRE66568.2025.00034)
 
 Olivieri, L., Pasetto, L., Negrini, L., Ferrara, P.: _"An Overview of Termination in the Ethereum Blockchain"_, in Proceedings of the 4th EAI International Conference on Blockchain Technology and Emerging Applications (BlockTEA 2025) [[DOI]](https://doi.org/10.1007/978-3-032-12335-0_14)
