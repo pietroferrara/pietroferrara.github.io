@@ -170,11 +170,11 @@ Smartphone and automotive technologies are rapidly converging, letting drivers e
 - **HEALTH-AI** (European Union, Erasmus+, 2025–2028): bridging the gap between healthcare and AI by equipping professionals and students with the knowledge, skills, and ethical awareness needed for safe and effective AI integration in clinical practice, through an Adaptive AI Curriculum, a co-creation platform for engineers and healthcare professionals, and the HealthAI Ethics Guideline.
 - **SUPREME** (Regione Veneto, Reti Innovative Regionali, 2025–2026): human-centric Industry 5.0 systems to monitor and optimize industrial plants in terms of reliability, energy efficiency, and quality control.
 - **SATCO** (Regione Veneto, Reti Innovative Regionali, 2025–2026): a constellation of satellites offering on-demand optical and laser signal intelligence services.
-- **Digital platform 5.0 transformation** (SMACT Competence Center, 2025–2026, Principal Investigator): a scalable and elastic software architecture to collect and elaborate data coming from rollercoasters, in collaboration with Zamperla SPA.
 - **EcoDigify** (European Union, Erasmus+, 2024–2027): a future-oriented interdisciplinary university program on sustainable digitalization.
 
 ## Completed funded projects
 
+- **Digital platform 5.0 transformation** (SMACT Competence Center, 2025–2026, Principal Investigator): a scalable and elastic software architecture to collect and elaborate data coming from rollercoasters, in collaboration with Zamperla SPA.
 - **Static Analysis for Data Scientists** (Ca' Foscari University of Venice, SPIN project, 2021–2023, Principal Investigator): an effective tool based on static analysis to help data scientists develop Python scripts for data processing.
 - **SERICS – Security and Rights in the Cyberspace** (Italian Ministry of University and Research, Partenariati Estesi, 2023–2025): methodologies to identify, detect, prevent, and fix security vulnerabilities in software (Spoke 6, Software and System Security).
 - **iNEST – Interconnected Nord-Est Innovation Ecosystem** (Italian Ministry of University and Research, Ecosistemi dell'Innovazione, 2022–2025): specification and validation of functional and security requirements of robotic software (Spoke 3, task leader).
